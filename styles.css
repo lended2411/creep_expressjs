@@ -1,0 +1,153 @@
+.acc_det_box_1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contain1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+    height: 5rem;
+}
+
+.contain2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+    height: 15rem;
+}
+
+.contain3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+    height: 10rem;
+}
+
+.rep_email, .lbl2, .rep_pass, .lbl4{
+    margin-top: 20px;
+}
+
+.mail_class{
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pass_class{
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+}
+
+input{
+    margin-left: 10px;
+    border-radius: 3px;
+    height: 25px;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: rgb(238, 238, 238);
+    transition: all 1.0s ease; /* Ensures a smooth */
+}
+
+input:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+input:focus {
+    outline: none; /* Removes the black border on focus */
+    border: none; /* Optional: Add your custom border style */
+}
+
+.country{
+    margin-left: 10px;
+    border-radius: 3px;
+    height: 30px;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: rgb(238, 238, 238);
+    transition: all 1.0s ease; /* Ensures a smooth */
+}
+
+.country:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.nation {
+    margin-left: 10px;
+    border-radius: 3px;
+    height: 25px;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: rgb(238, 238, 238);
+    transition: all 1.0s ease; /* Ensures a smooth transition for all properties */
+}
+
+.nation:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.pers_details{
+    width: 100%;
+    padding-top: 100px;
+}
+
+hr{
+    position: absolute;
+    color: rgb(0, 115, 255);
+}
+
+.radio-button{
+    width: 200px;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 154, 5);
+    border: 0px;
+    font-size: 20px;
+}
+
+fieldset{
+    border: none;
+    border-top: 2px solid rgb(0, 154, 5);
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 154, 5);
+    font-family: "Roboto Condensed", serif;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.main_title{
+    font-size: 40px;
+}

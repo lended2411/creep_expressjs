@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <title>Account Registration Form</title>
+</head>
+<body>
+    <h1 class="main_title">Create a Free Account</h1>
+    <div class="acc_det">
+        <fieldset>
+            <legend>Account Details</legend>
+        </fieldset>
+    
+        <div class="acc_det_box_1">
+            <div class="mail_class">
+                <div class="contain1">
+                    <label for="email" class="lbl1">Email</label>
+                    <label for="rep_email" class="lbl2">Repeat Email</label>
+                </div>
+        
+                <div class="contain1">
+                    <input type="email"  class="email">
+                    <input type="email"  class="rep_email">
+                </div>
+            </div>
+
+            <div class="pass_class">
+                <div class="contain1">
+                    <label for="pass" class="lbl3">Password</label>
+                    <label for="rep_pass" class="lbl4">Repeat Password</label>
+                </div>
+    
+                <div class="contain1">
+                    <input type="text"  class="pass">
+                    <input type="text"  class="rep_pass">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="acc_det">
+        <fieldset>
+            <legend>Personal Details</legend>
+        </fieldset>
+    
+        <div class="acc_det_box_1">
+            <div class="mail_class">
+                <div class="contain2">
+                    <label for="name" class="lbl5">Name</label>
+                    <label for="ph" class="lbl6" >Phone</label>
+                    <label for="street" class="lbl7" >Street</label>
+                    <label for="city" class="lbl8" >City</label>
+                    <label for="country" class="lbl9" >Country</label>
+                    <label for="website" class="lbl10" >Website</label>
+                </div>
+        
+                <div class="contain2">
+                    <input type="text"  class="name">
+                    <input type="number"  class="ph" >
+                    <input type="text"  class="street" >
+                    <input type="text"  class="city" >
+                    
+                    <select name="country" id="country" class="country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Japan">Japan</option>
+                    </select>
+
+                    <input type="email"  class="website" >
+                </div>
+            </div>
+
+            <div class="pass_class">
+                <div class="contain3">
+                    <label for="gender" class="lbl11">Gender</label>
+                    <label for="birth_date" class="lbl12" >Birth Date</label>
+                    <label for="nation" class="lbl13" >Nationality</label>
+                    <label for="children" class="lbl14" >Children</label>
+                </div>
+    
+                <div class="contain3">
+                    <div class="radio-button">
+                        <input type="radio" id="male" class="gender" name="gender" value="gender"/>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" class="gender" name="gender" value="gender" />
+                        <label for="female">Female</label>
+                    </div>
+
+                    <input type="date"  class="birth_date" >
+                    <select name="Nationality" id="nation" class="nation">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Japan">Japan</option>
+                    </select>
+                    <input type="number"  class="children" >
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <fieldset>
+        <legend>Terms and Mailing</legend>
+    </fieldset>
+    
+
+    <div class="accept">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+        <label class="container">I accept the Privacy Policy for <a href="">W3Schools</a></label>
+    </div>
+
+    <div class="newsletter">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+        <label class="container">I want to receive personalized offers by your site</label>
+    </div>
+
+    <button class="submit">Submit</button>
+</body>
+</html>
